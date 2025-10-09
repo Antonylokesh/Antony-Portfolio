@@ -1,0 +1,354 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(145deg, var(--color-secondary) 0%, var(--color-dark) 100%);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(87, 108, 188, 0.2);
+  overflow: hidden;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.imageCarousel {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carouselBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselBtn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.prevBtn {
+  left: 10px;
+}
+
+.nextBtn {
+  right: 10px;
+}
+
+.imageIndicators {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.indicator.active {
+  background-color: var(--color-primary);
+  transform: scale(1.2);
+}
+
+.indicator:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.imageCounter {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: var(--color-text);
+  font-family: var(--font-robot);
+  padding: 0 25px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  flex-grow: 1;
+  font-family: var(--font-robot);
+  padding: 0 25px;
+}
+
+.projectMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-family: var(--font-robot);
+}
+
+.metaLabel {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.metaValue {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.difficulty.beginner {
+  color: #4ade80;
+}
+
+.difficulty.intermediate {
+  color: #fbbf24;
+}
+
+.difficulty.advanced {
+  color: #f87171;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 20px;
+  background: var(--color-primary);
+  color: var(--color-text);
+  padding: 6px 12px;
+  white-space: nowrap;
+  font-family: var(--font-robot);
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+  padding: 0 25px 25px 25px;
+}
+
+.singleLink {
+  justify-content: center;
+}
+
+.singleLink .link {
+  max-width: 200px;
+  flex: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: var(--color-primary);
+  padding: 10px 20px;
+  flex: 1;
+  text-align: center;
+  transition: all 0.2s ease;
+  font-family: var(--font-robot);
+}
+
+.link:hover {
+  transform: translateY(-2px);
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+
+.demoBtn {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+  color: white;
+  border: 2px solid transparent;
+}
+
+.demoBtn:hover {
+  background: linear-gradient(135deg, #ff5252 0%, #ff7043 100%);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+.sourceBtn {
+  background: linear-gradient(135deg, #24292e 0%, #0366d6 100%);
+  box-shadow: 0 4px 12px rgba(3, 102, 214, 0.4);
+}
+
+.sourceBtn:hover {
+  background: linear-gradient(135deg, #1b1f23 0%, #0256cc 100%);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .imageCarousel {
+    height: 200px;
+  }
+
+  .carouselBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .prevBtn {
+    left: 8px;
+  }
+
+  .nextBtn {
+    right: 8px;
+  }
+
+  .imageIndicators {
+    bottom: 10px;
+    gap: 6px;
+  }
+
+  .indicator {
+    width: 7px;
+    height: 7px;
+  }
+
+  .imageCounter {
+    top: 8px;
+    right: 8px;
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  .link {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .buttonIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+
+  .projectMeta {
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+
+  .metaItem {
+    font-size: 13px;
+  }
+
+  .metaLabel {
+    font-size: 12px;
+  }
+
+  .links {
+    gap: 12px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+
+  .skill {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .skills {
+    margin-bottom: 20px;
+    gap: 6px;
+    padding: 0 20px;
+  }
+
+  .links {
+    gap: 12px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .link {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}

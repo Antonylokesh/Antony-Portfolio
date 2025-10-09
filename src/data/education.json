@@ -1,0 +1,23 @@
+[
+{
+    "degree": "Engineering degree in Computer Science",
+    "institution": "North American Private University",
+    "location": "Sfax, Tunisia",
+    "startDate": "2025",
+    "endDate": "2028"
+  },
+  {
+    "degree": "Bachelor's degree in IT Applied to Management",
+    "institution": "Faculty of Economics and Management",
+    "location": "Sfax, Tunisia",
+    "startDate": "2021",
+    "endDate": "2024"
+  },
+  {
+    "degree": "High School Diploma in Economics",
+    "institution": "Abou El Kacem Chebbi High School",
+    "location": "Sfax, Tunisia",
+    "startDate": "2017", 
+    "endDate": "2021"
+  }
+]

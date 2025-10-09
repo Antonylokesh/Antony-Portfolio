@@ -1,0 +1,555 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  width: 100%;
+  padding: 58px 10%;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h2 {
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, #764ba2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text p {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin-bottom: 35px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  list-style: none;
+  gap: 16px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 24px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 60px;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(87, 108, 188, 0.3);
+}
+
+.link img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.link:hover img {
+  transform: scale(1.1);
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.link:hover a {
+  color: var(--color-primary);
+}
+
+/* Contact Form Styles */
+.form {
+  flex: 1;
+  background-color: var(--color-dark);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formTitle {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: var(--color-text);
+}
+
+.inputGroup {
+  margin-bottom: 25px;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: var(--color-bg);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: var(--color-text);
+  font-family: var(--font-robot);
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="white" d="M2 0L0 2h4zM0 3l2 2 2-2z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px;
+  padding-right: 45px;
+}
+
+.select option {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 10px;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background-color: #4a5ba8;
+  transform: translateY(-2px);
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Validation Styles */
+.inputError {
+  border: 2px solid #f87171 !important;
+  background-color: rgba(248, 113, 113, 0.1) !important;
+}
+
+.inputError:focus {
+  box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.2) !important;
+}
+
+.errorText {
+  color: #f87171;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+  font-weight: 500;
+}
+
+.charCount {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+/* Enhanced Notification Styles */
+.notification {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.notification::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  pointer-events: none;
+}
+
+.notificationSuccess {
+  background-color: rgba(74, 222, 128, 0.1);
+  color: #22c55e;
+}
+
+.notificationError {
+  background-color: rgba(248, 113, 113, 0.1);
+  color: #ef4444;
+}
+
+.notificationWarning {
+  background-color: rgba(251, 191, 36, 0.1);
+  color: #f59e0b;
+}
+
+.notificationIcon {
+  font-size: 24px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconSvg {
+  width: 24px;
+  height: 24px;
+}
+
+.notificationContent {
+  flex: 1;
+  z-index: 1;
+  position: relative;
+}
+
+.notificationContent h4 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.notificationContent p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.notificationLink {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.notificationLink:hover {
+  opacity: 0.8;
+}
+
+.notificationClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: currentColor;
+  opacity: 0.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  padding: 5px;
+  z-index: 2;
+}
+
+.notificationClose:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.notificationShow {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideInUp 0.3s ease-out;
+}
+
+.notificationHide {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 80px;
+    padding: 40px 5%;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .text h2 {
+    font-size: 60px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .links {
+    align-items: stretch;
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .link {
+    gap: 16px;
+    padding: 16px 20px;
+    min-height: 55px;
+  }
+
+  .link img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .link a {
+    font-size: 20px;
+  }
+
+  .form {
+    padding: 30px 20px;
+    width: 100%;
+    max-width: none;
+  }
+
+  .formTitle {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .notification {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .notificationIcon {
+    font-size: 20px;
+  }
+
+  .iconSvg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .notificationContent h4 {
+    font-size: 15px;
+  }
+
+  .notificationContent p {
+    font-size: 13px;
+  }
+
+  .notificationClose {
+    font-size: 20px;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text h2 {
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 3%;
+    margin-top: 60px;
+  }
+
+  .content {
+    gap: 30px;
+  }
+
+  .text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .links {
+    gap: 20px;
+  }
+
+  .link {
+    gap: 15px;
+  }
+
+  .link img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .link a {
+    font-size: 16px;
+    word-break: break-all;
+  }
+
+  .form {
+    padding: 20px 15px;
+  }
+
+  .formTitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+
+  .input,
+  .textarea {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .textarea {
+    min-height: 100px;
+  }
+
+  .submitBtn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .notification {
+    padding: 14px;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .notificationIcon {
+    font-size: 18px;
+  }
+
+  .iconSvg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .notificationContent h4 {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .notificationContent p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .notificationClose {
+    font-size: 18px;
+    top: 6px;
+    right: 6px;
+    padding: 3px;
+  }
+}

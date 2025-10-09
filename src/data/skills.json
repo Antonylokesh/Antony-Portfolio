@@ -1,0 +1,148 @@
+[
+  {
+    "title": "HTML5",
+    "imageSrc": "skills/HTML5.png"
+  },
+  {
+    "title": "CSS3",
+    "imageSrc": "skills/CSS3.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/JavaScript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/TypeScript.png"
+  },
+  {
+    "title": "AngularJS",
+    "imageSrc": "skills/AngularJS.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/React.png"
+  },
+  {
+    "title": "Flutter",
+    "imageSrc": "skills/Flutter.png"
+  },
+
+
+  {
+    "title": "PHP",
+    "imageSrc": "skills/PHP.png"
+  },
+  {
+    "title": "Symfony",
+    "imageSrc": "skills/Symfony.png"
+  },
+  {
+    "title": "CakePHP",
+    "imageSrc": "skills/CakePHP.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/Node.js.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/Java.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/Spring.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/C.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/CSharp.png"
+  },
+  {
+    "title": ".NET",
+    "imageSrc": "skills/NET.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/Python.png"
+  },
+
+
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/MySQL.png"
+  },
+  {
+    "title": "SQL Server",
+    "imageSrc": "skills/SQLServer.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/PostgreSQL.png"
+  },
+  {
+    "title": "Oracle",
+    "imageSrc": "skills/Oracle.png"
+  },
+  {
+    "title": "SQLite",
+    "imageSrc": "skills/SQLite.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/MongoDB.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/Firebase.png"
+  },
+
+
+  {
+    "title": "Docker",
+    "imageSrc": "skills/Docker.png"
+  },
+  {
+    "title": "Bash",
+    "imageSrc": "skills/Bash.png"
+  },
+
+
+  {
+    "title": "Pandas",
+    "imageSrc": "skills/Pandas.png"
+  },
+  {
+    "title": "NumPy",
+    "imageSrc": "skills/NumPy.png"
+  },
+  {
+    "title": "Matplotlib",
+    "imageSrc": "skills/Matplotlib.png"
+  },
+  {
+    "title": "Jupyter Notebook",
+    "imageSrc": "skills/Jupyter.png"
+  },
+  {
+    "title": "Power BI",
+    "imageSrc": "skills/PowerBI.png"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/Tableau.png"
+  },
+
+
+  {
+    "title": "Git",
+    "imageSrc": "skills/Git.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/GitHub.png"
+  }
+]

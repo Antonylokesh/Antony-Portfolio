@@ -1,0 +1,81 @@
+[
+  {
+    "title": "MeilleurPrixTn",
+    "images": [
+      "projects/mptn1.png",
+      "projects/mptn2.png",
+      "projects/mptn3.png",
+      "projects/mptn4.png",
+      "projects/mptn5.png"
+    ],
+    "description": "MeilleurPrixTn is an intelligent web platform that allows Tunisian consumers to easily compare prices of electronic products across all major e-commerce sites in the country. Developed with Flask and powered by advanced search algorithms, it provides a modern user experience and delivers relevant results in real time.",
+    "skills": ["Python", "Flask", "BeautifulSoup", "Selenium"],
+    "duration": "1 month",
+    "difficulty": "Advanced",
+    "year": 2024,
+    "demo": "https://www.meilleurprixtn.top",
+    "source": "https://github.com/M3dnux/meilleurprix-tn"
+  },
+  {
+    "title": "Product Listing Site",
+    "images": [
+      "projects/pls1.png",
+      "projects/pls2.png",
+      "projects/pls3.png",
+      "projects/pls4.png",
+      "projects/pls5.png"
+    ],
+    "description": "This Project is a web app that allows users to view, order, and manage products. Built with HTML, CSS, JavaScript, PHP, and MySQL using the MVC architecture, this app provides an easy-to-use interface for both customers and admins.",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "MVC"],
+    "duration": "3 weeks",
+    "difficulty": "Beginner",
+    "year": 2023,
+    "demo": "",
+    "source": "https://github.com/M3dnux/Product-Listing-Site"
+  },
+  {
+    "title": "Account Manager",
+    "images": [
+      "projects/am1.png",
+      "projects/am2.png",
+      "projects/am3.png"
+    ],
+    "description": "Account Manager is a desktop app that helps you keep all your login credentials for different platforms in one place. It saves you from the trouble of remembering multiple passwords and struggling with the 'Forgot Password' option every time you need to log in to a platform.",
+    "skills": ["C#", ".NET Framework", "SQLite", "Dapper"],
+    "duration": "3 weeks",
+    "difficulty": "Beginner",
+    "year": 2022,
+    "demo": "",
+    "source": "https://github.com/M3dnux/Account-Manager"
+  },
+  {
+    "title": "Academic Grade Calculator",
+    "images": [
+      "projects/c1.png",
+      "projects/c2.png",
+      "projects/c3.png"
+    ],
+    "description": "Console-based grade management system that calculates semester and yearly averages for university students with weighted assessment schemes and formatted transcript generation.",
+    "skills": ["C", "Data structures", "Console development"],
+    "duration": "1 week",
+    "difficulty": "Beginner",
+    "year": 2022,
+    "demo": "",
+    "source": "https://github.com/M3dnux/Report-card"
+  },
+  {
+    "title": "Découvrir la ville de Sfax",
+    "images": [
+      "projects/dvsfax1.png",
+      "projects/dvsfax2.png",
+      "projects/dvsfax3.png"
+    ],
+    "description": "This is one of the first projects I made to learn the basics of web development by showcasing the monuments of the city I live in.",
+    "skills": ["HTML", "CSS"],
+    "duration": "1 week",
+    "difficulty": "Beginner",
+    "year": 2021,
+    "demo": "",
+    "source": "https://github.com/M3dnux/Discover-the-city-of-Sfax"
+  }
+]
