@@ -26,7 +26,7 @@ export const Navbar = () => {
 
     return (
     <nav className={styles.navbar}>
-        <a className={styles.title} href="/"> </a>
+        <a className={styles.title} href="/"></a>
         <div className={styles.menu} ref={menuRef}>
             <img 
                 className={styles.menuBtn}
