@@ -12,12 +12,34 @@
     "skills": ["Python", "Flask", "BeautifulSoup", "Selenium"],
     "duration": "1 month",
     "difficulty": "Advanced",
-    "year": 2024,
+    "year": 2025,
     "demo": "https://www.meilleurprixtn.top",
     "source": "https://github.com/M3dnux/meilleurprix-tn"
   },
   {
-    "title": "Product Listing Site",
+  "title": "El Jarda",
+  "images": [
+    "projects/eljarda1.png",
+    "projects/eljarda2.png",
+    "projects/eljarda3.png",
+    "projects/eljarda4.png",
+    "projects/eljarda5.png",
+    "projects/eljarda6.png",
+    "projects/eljarda7.png",
+    "projects/eljarda8.png",
+    "projects/eljarda9.png",
+    "projects/eljarda10.png"
+  ],
+  "description": "El Jarda is a comprehensive digital platform for a professional garden maintenance and landscaping business based in Sfax, Tunisia. This modern website combines an intuitive customer interface with a powerful admin dashboard for complete content management. The platform features a dynamic product catalog showcasing plants and gardening tools, integrated contact forms for customer inquiries, and a user-friendly content management system that empowers business owners to update their offerings without requiring technical expertise.",
+  "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "MySQL", "Node.js", "JWT Authentication"],
+  "duration": "2 months",
+  "difficulty": "Advanced",
+  "year": 2025,
+  "demo": "https://eljarda.com",
+  "source": "https://github.com/M3dnux/el-jarda"
+},
+{
+  "title": "Product Listing Site",
     "images": [
       "projects/pls1.png",
       "projects/pls2.png",
