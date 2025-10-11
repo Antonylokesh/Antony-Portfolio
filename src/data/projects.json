@@ -73,8 +73,6 @@
   {
     "title": "Academic Grade Calculator",
     "images": [
-      "projects/c1.png",
-      "projects/c2.png",
       "projects/c3.png"
     ],
     "description": "Console-based grade management system that calculates semester and yearly averages for university students with weighted assessment schemes and formatted transcript generation.",
