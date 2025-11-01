@@ -4,7 +4,7 @@ Modern, responsive portfolio built with React and Vite featuring dynamic content
 
 ## 🚀 Live Demo
 
-  **[View Live Portfolio →](antonylokesh.vercel.app)**
+  **[View Live Portfolio →](https://antonylokesh.vercel.app/)**
 
 ## Features
 
