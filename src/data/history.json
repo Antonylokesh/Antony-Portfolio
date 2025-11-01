@@ -1,28 +1,36 @@
 [
   {
-    "role": "Web Developer",
-    "organisation": "REF IT",
-    "startDate": "Aug, 2024",
-    "endDate": "Sept, 2024",
-    "experiences": ["Integrated a biometric device with a web-based HR system.", "Built a management interface to streamline employee data."],
-    "imageSrc": "history/ref-it.png"
+    "role": "Software Development Engineer",
+   "organisation": "Lam Research",
+   "startDate": "Sept, 2024",
+   "endDate": "Present",
+   "experiences": [
+    "Built AI-powered platforms for predictive analytics in semiconductor manufacturing.",
+    "Developed microservices and data pipelines using Kafka and PostgreSQL.",
+    "Created real-time dashboards with React and Next.js."],
+    "imageSrc": "history/Lam Research.jpeg.jpg"
   },
   {
-    "role": "Web & Data Intern",
-    "organisation": "Technopole de Sfax",
-    "startDate": "Feb, 2024",
-    "endDate": "May, 2024",
-    "experiences": ["Developed an educational platform and analytics dashboard.", "Secured user authentication and optimized backend services."],
-    "imageSrc": "history/techno-sfax.png"
+    "role": "Software Engineer",
+  "organisation": "Cortracker",
+  "startDate": "July, 2021",
+  "endDate": "July, 2023",
+  "experiences": [
+    "Developed scalable backend services using Java and Python.",
+    "Built real-time data flows with Kafka and Redis.",
+    "Integrated AI models for recommendations and fraud detection."],
+    "imageSrc": "history/Cortracker.jpeg.jpg"
   },
   {
-    "role": "Web Development Intern",
-    "organisation": "MTD Group",
-    "startDate": "Jul, 2023",
-    "endDate": "Aug, 2023",
-    "experiences": [
-      "Designed user interfaces and improved database models."
+    "role": "Backend Developer",
+  "organisation": "Cortracker",
+  "startDate": "Jan, 2023",
+  "endDate": "July, 2023",
+  "experiences": [
+    "Built a real-time chat system using FastAPI and WebSockets.",
+    "Improved reliability with Kafka queues and Redis Streams.",
+    "Reduced downtime with monitoring using Prometheus and Grafana."
     ],
-    "imageSrc": "history/mtd-group.png"
+    "imageSrc": "history/Cortracker.jpeg.jpg"
   }
 ]

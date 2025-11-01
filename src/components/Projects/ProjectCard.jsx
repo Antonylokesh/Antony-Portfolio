@@ -93,7 +93,7 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      <div className={`${styles.links} ${!demo || demo.trim() === '' ? styles.singleLink : ''}`}>
+      {/* <div className={`${styles.links} ${!demo || demo.trim() === '' ? styles.singleLink : ''}`}>
         {demo && demo.trim() !== '' && (
           <a 
             href={demo} 
@@ -122,7 +122,7 @@ export const ProjectCard = ({
           />
           Source Code
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -1,101 +1,59 @@
 [
   {
-    "title": "MeilleurPrixTn",
-    "images": [
-      "projects/mptn1.png",
-      "projects/mptn2.png",
-      "projects/mptn3.png",
-      "projects/mptn4.png",
-      "projects/mptn5.png"
-    ],
-    "description": "MeilleurPrixTn is an intelligent web platform that allows Tunisian consumers to easily compare prices of electronic products across all major e-commerce sites in the country. Developed with Flask and powered by advanced search algorithms, it provides a modern user experience and delivers relevant results in real time.",
-    "skills": ["Python", "Flask", "BeautifulSoup", "Selenium"],
-    "duration": "1 month",
-    "difficulty": "Advanced",
-    "year": 2025,
-    "demo": "https://www.meilleurprixtn.top",
-    "source": "https://github.com/M3dnux/meilleurprix-tn"
+    "title": "AI-Enabled Semiconductor Intelligence Platform",
+  "images": [
+    "projects/Project 1 image.png"
+  ],
+  "description": "A cloud-native platform for predictive maintenance and defect detection in semiconductor manufacturing. Built with TensorFlow, PyTorch, and Kafka to process real-time sensor data and provide actionable analytics dashboards.",
+  "skills": ["Python", "TensorFlow", "PyTorch", "Kafka", "PostgreSQL", "React", "Next.js", "Docker", "Kubernetes"],
+  "duration": "6 months",
+  "difficulty": "Advanced",
+  "year": 2024
   },
   {
-  "title": "El Jarda",
+    "title": "Real-Time E-Commerce Personalization Platform",
   "images": [
-    "projects/eljarda1.png",
-    "projects/eljarda2.png",
-    "projects/eljarda3.png",
-    "projects/eljarda4.png",
-    "projects/eljarda5.png",
-    "projects/eljarda6.png",
-    "projects/eljarda7.png",
-    "projects/eljarda8.png",
-    "projects/eljarda9.png",
-    "projects/eljarda10.png"
+    "projects/Project 2 image.png"
   ],
-  "description": "El Jarda is a comprehensive digital platform for a professional garden maintenance and landscaping business based in Sfax, Tunisia. This modern website combines an intuitive customer interface with a powerful admin dashboard for complete content management. The platform features a dynamic product catalog showcasing plants and gardening tools, integrated contact forms for customer inquiries, and a user-friendly content management system that empowers business owners to update their offerings without requiring technical expertise.",
-  "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "MySQL", "Node.js", "JWT Authentication"],
-  "duration": "2 months",
+  "description": "A real-time e-commerce platform offering personalized recommendations, fraud detection, and live inventory updates. Designed with Spring Boot, FastAPI, and React, integrating ML models for dynamic product suggestions.",
+  "skills": ["Java", "Spring Boot", "Python", "FastAPI", "Kafka", "RabbitMQ", "React", "Tailwind CSS", "AWS", "GCP"],
+  "duration": "1 year",
   "difficulty": "Advanced",
-  "year": 2025,
-  "demo": "https://eljarda.com",
-  "source": "https://github.com/M3dnux/el-jarda"
+  "year": 2023
 },
 {
-  "title": "Product Listing Site",
-    "images": [
-      "projects/pls1.png",
-      "projects/pls2.png",
-      "projects/pls3.png",
-      "projects/pls4.png",
-      "projects/pls5.png"
-    ],
-    "description": "This Project is a web app that allows users to view, order, and manage products. Built with HTML, CSS, JavaScript, PHP, and MySQL using the MVC architecture, this app provides an easy-to-use interface for both customers and admins.",
-    "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "MVC"],
-    "duration": "3 weeks",
-    "difficulty": "Beginner",
-    "year": 2023,
-    "demo": "",
-    "source": "https://github.com/M3dnux/Product-Listing-Site"
-  },
-  {
-    "title": "Account Manager",
-    "images": [
-      "projects/am1.png",
-      "projects/am2.png",
-      "projects/am3.png"
-    ],
-    "description": "Account Manager is a desktop app that helps you keep all your login credentials for different platforms in one place. It saves you from the trouble of remembering multiple passwords and struggling with the 'Forgot Password' option every time you need to log in to a platform.",
-    "skills": ["C#", ".NET Framework", "SQLite", "Dapper"],
-    "duration": "3 weeks",
-    "difficulty": "Beginner",
-    "year": 2022,
-    "demo": "",
-    "source": "https://github.com/M3dnux/Account-Manager"
-  },
-  {
-    "title": "Academic Grade Calculator",
-    "images": [
-      "projects/c3.png"
-    ],
-    "description": "Console-based grade management system that calculates semester and yearly averages for university students with weighted assessment schemes and formatted transcript generation.",
-    "skills": ["C", "Data structures", "Console development"],
-    "duration": "1 week",
-    "difficulty": "Beginner",
-    "year": 2022,
-    "demo": "",
-    "source": "https://github.com/M3dnux/Report-card"
-  },
-  {
-    "title": "Découvrir la ville de Sfax",
-    "images": [
-      "projects/dvsfax1.png",
-      "projects/dvsfax2.png",
-      "projects/dvsfax3.png"
-    ],
-    "description": "This is one of the first projects I made to learn the basics of web development by showcasing the monuments of the city I live in.",
-    "skills": ["HTML", "CSS"],
-    "duration": "1 week",
-    "difficulty": "Beginner",
-    "year": 2021,
-    "demo": "",
-    "source": "https://github.com/M3dnux/Discover-the-city-of-Sfax"
-  }
+  "title": "Real-Time Messaging & Collaboration Platform",
+  "images": [
+    "projects/Project 3.png"
+  ],
+  "description": "A high-performance messaging system built for logistics teams to track deliveries and communicate in real time. Implemented using FastAPI, WebSockets, and Redis Streams for sub-150ms message delivery.",
+  "skills": ["Python", "FastAPI", "WebSockets", "Redis", "Kafka", "Prometheus", "Grafana"],
+  "duration": "6 months",
+  "difficulty": "Intermediate",
+  "year": 2023
+}
+,
+{
+  "title": "Customer Purchase Behaviour Analysis",
+  "images": [
+    "projects/Customer Behavior Analysis.jpg"
+  ],
+  "description": "Analyzed retail purchase data using Power BI and Tableau to uncover customer trends, churn risks, and sales opportunities. Delivered interactive dashboards that enhanced marketing decisions and inventory planning.",
+  "skills": ["Power BI", "Tableau", "SQL", "Python"],
+  "duration": "1 month",
+  "difficulty": "Intermediate",
+  "year": 2022
+},
+{
+  "title": "IoT Predictive Maintenance System",
+  "images": [
+    "projects/ec23cc96368b6464396ccd22f67a59f8.jpg"
+  ],
+  "description": "Built a predictive maintenance system for IoT devices using Azure Databricks and Machine Learning. Designed data lake architecture and applied time-series analysis to predict equipment failures early.",
+  "skills": ["Azure", "Databricks", "Machine Learning", "Python", "SQL"],
+  "duration": "2 months",
+  "difficulty": "Advanced",
+  "year": 2022
+}
+
 ]

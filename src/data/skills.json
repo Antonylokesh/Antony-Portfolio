@@ -1,5 +1,42 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "skills/Java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/Python.png"
+  },
+  {
+    "title": "Go",
+    "imageSrc": "skills/go.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/TypeScript.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "Bash",
+    "imageSrc": "skills/Bash.png"
+  },
+
+  {
+    "title": "React",
+    "imageSrc": "skills/React.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/next js.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind css.jpeg"
+  },
+  {
     "title": "HTML5",
     "imageSrc": "skills/HTML5.png"
   },
@@ -7,126 +44,143 @@
     "title": "CSS3",
     "imageSrc": "skills/CSS3.png"
   },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/JavaScript.png"
-  },
-  {
-    "title": "TypeScript",
-    "imageSrc": "skills/TypeScript.png"
-  },
-  {
-    "title": "AngularJS",
-    "imageSrc": "skills/AngularJS.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/React.png"
-  },
-  {
-    "title": "Flutter",
-    "imageSrc": "skills/Flutter.png"
-  },
 
-
-  {
-    "title": "PHP",
-    "imageSrc": "skills/PHP.png"
-  },
-  {
-    "title": "Symfony",
-    "imageSrc": "skills/Symfony.png"
-  },
-  {
-    "title": "CakePHP",
-    "imageSrc": "skills/CakePHP.png"
-  },
-  {
-    "title": "Node.js",
-    "imageSrc": "skills/Node.js.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/Java.png"
-  },
   {
     "title": "Spring Boot",
     "imageSrc": "skills/Spring.png"
   },
   {
-    "title": "C",
-    "imageSrc": "skills/C.png"
+    "title": "FastAPI",
+    "imageSrc": "skills/fast api.png"
   },
   {
-    "title": "C#",
-    "imageSrc": "skills/CSharp.png"
-  },
-  {
-    "title": ".NET",
-    "imageSrc": "skills/NET.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/Python.png"
+    "title": "Flask",
+    "imageSrc": "skills/flask.png"
   },
 
-
   {
-    "title": "MySQL",
-    "imageSrc": "skills/MySQL.png"
+    "title": "REST API",
+    "imageSrc": "skills/rest aoi.png"
   },
   {
-    "title": "SQL Server",
-    "imageSrc": "skills/SQLServer.png"
+    "title": "gRPC",
+    "imageSrc": "skills/grpc.png"
+  },
+
+  {
+    "title": "TensorFlow",
+    "imageSrc": "skills/tensor flow.png"
+  },
+  {
+    "title": "PyTorch",
+    "imageSrc": "skills/pytorch.png"
+  },
+  {
+    "title": "ONNX",
+    "imageSrc": "skills/onnx.png"
+  },
+  {
+    "title": "Hugging Face",
+    "imageSrc": "skills/hugging face.png"
+  },
+  {
+    "title": "LangChain",
+    "imageSrc": "skills/langchain.jpeg"
   },
   {
     "title": "PostgreSQL",
     "imageSrc": "skills/PostgreSQL.png"
   },
   {
-    "title": "Oracle",
-    "imageSrc": "skills/Oracle.png"
-  },
-  {
-    "title": "SQLite",
-    "imageSrc": "skills/SQLite.png"
+    "title": "MySQL",
+    "imageSrc": "skills/MySQL.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/MongoDB.png"
   },
   {
-    "title": "Firebase",
-    "imageSrc": "skills/Firebase.png"
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
   },
 
-
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "GCP",
+    "imageSrc": "skills/GCP.png"
+  },
   {
     "title": "Docker",
     "imageSrc": "skills/Docker.png"
   },
   {
-    "title": "Bash",
-    "imageSrc": "skills/Bash.png"
+    "title": "Kubernetes",
+    "imageSrc": "skills/kubernetees.png"
+  },
+  {
+    "title": "Terraform",
+    "imageSrc": "skills/terraform.png"
   },
 
+  {
+    "title": "GitHub Actions",
+    "imageSrc": "skills/github actions.png"
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/jenkins.png"
+  },
+  {
+    "title": "GitLab CI",
+    "imageSrc": "skills/gitlab.png"
+  },
+  {
+    "title": "ArgoCD",
+    "imageSrc": "skills/argo.png"
+  },
 
   {
-    "title": "Pandas",
-    "imageSrc": "skills/Pandas.png"
+    "title": "JUnit",
+    "imageSrc": "skills/junit.png"
   },
   {
-    "title": "NumPy",
-    "imageSrc": "skills/NumPy.png"
+    "title": "PyTest",
+    "imageSrc": "skills/pytest.png"
   },
   {
-    "title": "Matplotlib",
-    "imageSrc": "skills/Matplotlib.png"
+    "title": "Jest",
+    "imageSrc": "skills/jest.png"
   },
   {
-    "title": "Jupyter Notebook",
-    "imageSrc": "skills/Jupyter.png"
+    "title": "Cypress",
+    "imageSrc": "skills/cypress.jpeg"
   },
+
+  {
+    "title": "Kafka",
+    "imageSrc": "skills/kafka.png"
+  },
+  {
+    "title": "Amazon SQS",
+    "imageSrc": "skills/amazon sqs.jpeg"
+  },
+
+  {
+    "title": "Prometheus",
+    "imageSrc": "skills/prometheus.png"
+  },
+  {
+    "title": "Grafana",
+    "imageSrc": "skills/Grafna.jpeg"
+  },
+  {
+    "title": "ELK Stack",
+    "imageSrc": "skills/elk.png"
+  },
+
   {
     "title": "Power BI",
     "imageSrc": "skills/PowerBI.png"
@@ -136,13 +190,16 @@
     "imageSrc": "skills/Tableau.png"
   },
 
-
   {
-    "title": "Git",
-    "imageSrc": "skills/Git.png"
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
   },
   {
-    "title": "GitHub",
-    "imageSrc": "skills/GitHub.png"
+    "title": "Agile Scrum",
+    "imageSrc": "skills/agile.png"
+  },
+  {
+    "title": "Jira",
+    "imageSrc": "skills/jira.png"
   }
 ]
